@@ -1,7 +1,7 @@
 import requests
 from lxml import html
 def search(keywords ):
-	url = 'https://duckduckgo.com/html/'
+	url = 'https://duckduckgo.com/lite/'
 	params = {
 		'q': keywords,
 	}
